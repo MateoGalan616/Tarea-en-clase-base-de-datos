@@ -36,16 +36,16 @@ VALUES
 '''
 
 ### count names 
-![alt text](<count names.png>)
+Capturas/count names.png
 
 ### count phone 
-![alt text](<count phone.png>)
+Capturas/count phone.png
 
 ### count phone and names 
-![alt text](<count phone and names.png>)
+Capturas/count phone and names.png
 
 ### count phone and names and total(*)
-![alt text](<count phone and names and total.png>)
+Capturas/count phone and names and total.png
 
 ### count city with distimet 
-![alt text](<count city with distimet.png>)
+Capturas/count city with distimet.png 
