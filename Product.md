@@ -37,46 +37,47 @@ INSERT INTO product (id, description, price, category, country_of_origin, year_o
 
 # Contar el número de productos de una categoría específica:
 SELECT COUNT(*) FROM product WHERE category = 'NombreDeLaCategoría';
-
+Capturas product/Contar el número de productos de una categoría específica.png
 
 # Contar el número de clientes en una ciudad específica:
 SELECT COUNT(*) AS customer_count
 FROM client
 WHERE city = 'San Francisco';
-
+Capturas product/Contar el número de clientes en una ciudad específica.png
 
 
 # Contar el número de productos cuyo precio está dentro de un rango específico
 SELECT COUNT(*) AS product_count
 FROM product
 WHERE price BETWEEN 100.00 AND 200.00;
-
+Capturas product/Contar el número de productos cuyo precio está dentro de un rango específico.png
 
 # Seleccionar clientes que viven en una ciudad específica y tienen un tipo de cliente específico
 SELECT *
 FROM client
 WHERE city = 'San Francisco' AND type_of_client = 'Premium';
-
+Capturas product/Seleccionar clientes que viven en una ciudad específica y tienen un tipo de cliente específico.png
 
 # Seleccionar productos que pertenecen a una categoría específica y cuyo precio está por encima de un valor específico
 SELECT *
 FROM product
 WHERE category = 'Home Appliances' AND price > 150.00;
-
+Capturas product/Seleccionar productos que pertenecen a una categoría específica y cuyo precio está por encima de un valor específico.png
 
 # Seleccionar productos que fueron producidos en un año específico y en un país de origen específico
 SELECT *
 FROM product
 WHERE year_of_production = 2022 AND country_of_origin = 'China';
-
+Capturas product/Seleccionar productos que fueron producidos en un año específico y en un país de origen específico.png
 
 # Seleccionar clientes cuyo nombre completo comience con 'J'
 SELECT *
 FROM client
 WHERE fullname LIKE 'J%';
-
+Capturas product/Seleccionar clientes cuyo nombre completo comience con 'J'.png
 
 #  Seleccionar clientes cuya ciudad contenga la letra 'a'
 SELECT *
 FROM client
 WHERE city LIKE '%a%';
+Capturas product/Seleccionar clientes cuya ciudad contenga la letra 'a'.png
